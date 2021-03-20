@@ -44,6 +44,7 @@ p {
 }
 .terms a {
   color: #57a168;
+  text-decoration: none;
 }
 .showHide {
   font-size: 15px;
