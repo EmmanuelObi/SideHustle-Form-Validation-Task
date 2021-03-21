@@ -71,12 +71,13 @@ p {
 }
 .form-control input {
   position: absolute;
-  left: 30px;
+  left: 10%;
   bottom: 10px;
 }
 .form-control input {
   width: 100%;
   padding: 10px;
+  padding-left: 5px;
   font-size: 1rem;
   border: none;
 }
@@ -96,7 +97,7 @@ p {
   color: var(--error-color);
   position: absolute;
   bottom: 0;
-  left: 15%;
+  left: 10%;
   visibility: hidden;
 }
 
@@ -136,5 +137,10 @@ p {
   .container {
     width: 95%;
     height: 95vh;
+  }
+  .form-control small {
+    font-size: 11px;
+    width: 100%;
+    text-align: left;
   }
 }
